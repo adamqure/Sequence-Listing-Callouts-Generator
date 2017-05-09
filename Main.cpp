@@ -11,6 +11,7 @@ int main()
 	string original_filepath;
 	string target_filepath;
 	string target_name;
+	const int HEADER_LENGTH = 5;
 	cout<<"What is the location of the file you need to generate Callouts for?"<<endl;
 	cin >> original_filepath;
 	cout<<"Where would you like your new file to be located?" <<endl;
@@ -40,10 +41,12 @@ int main()
 		{
 			do
 			{
-				if(repeats.count(line)== 0)
-				{
-					target_file << line << endl;
-					repeats.insert(line);
+				if(line.length() > HEADER_LENGTH){
+					if(repeats.count(line)== 0)
+					{
+						target_file << line << endl;
+						repeats.insert(line);
+					}
 				}
 			}while (getline(original_file, line)&&line != "");
 		}
@@ -51,10 +54,12 @@ int main()
 		{
 			do
 			{
-				if(repeats.count(line)== 0)
-				{
-					target_file << line << endl;
-					repeats.insert(line);
+				if(line.length() > HEADER_LENGTH){
+					if(repeats.count(line)== 0)
+					{
+						target_file << line << endl;
+						repeats.insert(line);
+					}
 				}
 			}while (getline(original_file, line)&&line != "");
 		}
@@ -62,10 +67,12 @@ int main()
 		{
 			do
 			{
-				if(repeats.count(line)== 0)
-				{
-					target_file << line << endl;
-					repeats.insert(line);
+				if(line.length() > HEADER_LENGTH){
+					if(repeats.count(line)== 0)
+					{
+						target_file << line << endl;
+						repeats.insert(line);
+					}
 				}
 			}while (getline(original_file, line)&&line != "");
 		}
@@ -73,10 +80,12 @@ int main()
 		{
 			do
 			{
-				if(repeats.count(line)== 0)
-				{
-					target_file << line << endl;
-					repeats.insert(line);
+				if(line.length() > HEADER_LENGTH){
+					if(repeats.count(line)== 0)
+					{
+						target_file << line << endl;
+						repeats.insert(line);
+					}
 				}
 			}while (getline(original_file, line)&&line != "");
 		}
@@ -84,10 +93,12 @@ int main()
 		{
 			do
 			{
-				if(repeats.count(line)== 0)
-				{
-					target_file << line << endl;
-					repeats.insert(line);
+				if(line.length() > HEADER_LENGTH){
+					if(repeats.count(line)== 0)
+					{
+						target_file << line << endl;
+						repeats.insert(line);
+					}
 				}
 			}while (getline(original_file, line)&&line != "");
 		}
@@ -95,10 +106,12 @@ int main()
 		{
 			do
 			{
-				if(repeats.count(line)== 0)
-				{
-					target_file << line << endl;
-					repeats.insert(line);
+				if(line.length() > HEADER_LENGTH){
+					if(repeats.count(line)== 0)
+					{
+						target_file << line << endl;
+						repeats.insert(line);
+					}
 				}
 			}while (getline(original_file, line)&&line != "");
 		}
@@ -106,10 +119,12 @@ int main()
 		{
 			do
 			{
-				if(repeats.count(line)== 0)
-				{
-					target_file << line << endl;
-					repeats.insert(line);
+				if(line.length() > HEADER_LENGTH){
+					if(repeats.count(line)== 0)
+					{
+						target_file << line << endl;
+						repeats.insert(line);
+					}
 				}
 			}while (getline(original_file, line)&&line != "");
 		}
@@ -117,10 +132,12 @@ int main()
 		{
 			do
 			{
-				if(repeats.count(line)== 0)
-				{
-					target_file << line << endl;
-					repeats.insert(line);
+				if(line.length() > HEADER_LENGTH){
+					if(repeats.count(line)== 0)
+					{
+						target_file << line << endl;
+						repeats.insert(line);
+					}
 				}
 			}while (getline(original_file, line)&&line != "");
 		}
@@ -128,10 +145,12 @@ int main()
 		{
 			do
 			{
-				if(repeats.count(line)== 0)
-				{
-					target_file << line << endl;
-					repeats.insert(line);
+				if(line.length() > HEADER_LENGTH){
+					if(repeats.count(line)== 0)
+					{
+						target_file << line << endl;
+						repeats.insert(line);
+					}
 				}
 			}while (getline(original_file, line)&&line != "");
 		}
